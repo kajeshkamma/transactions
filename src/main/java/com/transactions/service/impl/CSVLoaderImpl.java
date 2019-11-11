@@ -1,22 +1,17 @@
 package com.transactions.service.impl;
 
-import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.text.ParseException;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.util.stream.Collectors;
-
 import com.transactions.model.Transaction;
 import com.transactions.model.TransactionType;
 import com.transactions.service.CSVLoader;
-
 import au.com.bytecode.opencsv.CSVReader;
 
 public class CSVLoaderImpl implements CSVLoader {

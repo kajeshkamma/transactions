@@ -26,21 +26,7 @@ public class App {
 			startDateTime = args[2];
 			endDateTime = args[3];
 
-		} else {
-			// accept argument from command line
-			/*
-			try (Scanner in = new Scanner(System.in)) {
-				System.out.println("Enter input file with complete path:");
-				inputFile = in.nextLine();
-				System.out.println("Enter merchant name:");
-				merchant = in.nextLine();
-				System.out.println("Enter start date & time :");
-				startDateTime = in.nextLine();
-				System.out.println("Enter end date & time :");
-				endDateTime = in.nextLine();
-			}
-			*/
-		}
+		} 
 
 		Collection<Transaction> transactions = loader.loadTransactions(inputFile);
 		DoubleSummaryStatistics dss = transactionAnalyser.analyzeTransactions(transactions, merchant, startDateTime,
