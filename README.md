@@ -28,7 +28,7 @@ mvn clean install
 
 ## How to run
 ```
-mvn exec:java -Dexec.mainClass="org.deb.App"
+mvn exec:java -Dexec.mainClass="com.transactions.App"
 ```
 
 or execute
