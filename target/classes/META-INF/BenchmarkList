@@ -1,0 +1,2 @@
+JMH S 28 com.transactions.MyBenchmark S 61 com.transactions.generated.MyBenchmark_testCSVLoading_jmhTest S 14 testCSVLoading S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
+JMH S 28 com.transactions.MyBenchmark S 59 com.transactions.generated.MyBenchmark_testAnalysis_jmhTest S 12 testAnalysis S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
