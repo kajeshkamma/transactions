@@ -1,0 +1,6 @@
+com\transactions\service\CSVLoader.class
+com\transactions\model\TransactionType.class
+com\transactions\service\Analysis.class
+com\transactions\model\Transaction.class
+com\transactions\service\impl\CSVLoaderImpl.class
+com\transactions\App.class
